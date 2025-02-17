@@ -1,0 +1,204 @@
+:root {
+  --colorTextSecond: #737373;
+  --colorTextLight: #ffffff;
+  --colorTextMain: #252b42;
+  --colorTextDark: #000000;
+  --colorTextFooter: #5c5c5c;
+  --colorBgMain: #f6f6f6;
+  --colorBgButton: #ffffff00;
+  --colorHover: #fa4a0c;
+  --fontFamily: "Montserrat", sans-serif;
+  --secondFamily: "Poppins", sans-serif;
+  --thirdFamily: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 1040px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+/* =====================header=================== */
+
+.header {
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+.logo-img {
+  width: 150px;
+  height: 65px;
+}
+
+.nav-link {
+  font-family: var(--fontFamily);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.75;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: var(--colorTextMain);
+
+  &:hover {
+    color: var(--colorHover);
+  }
+}
+
+.hero {
+  background-image: url(../img/bg/herobg.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 70px;
+  padding-bottom: 160px;
+}
+
+.hero-suptitle {
+  font-family: var(--fontFamily);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 0em;
+  text-align: center;
+  color: var(--colorBgMain);
+}
+
+.hero-title {
+  font-family: var(--secondFamily);
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 1.38;
+  letter-spacing: 0em;
+  text-align: center;
+  color: var(--colorTextLight);
+}
+
+.hero-subtitle {
+  font-family: var(--fontFamily);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.58;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: var(--colorBgMain);
+}
+
+.hero-btn {
+  font-family: var(--fontFamily);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 0em;
+  color: var(--colorTextLight);
+}
+
+.btn-del,
+.btn-play {
+  background-color: var(--colorHover);
+  border: 1px solid var(--colorHover);
+
+  &:hover {
+    background-color: var(--colorBgButton);
+    border: 1px solid var(--colorTextLight);
+  }
+}
+
+.btn-menu,
+.btn-app {
+  background-color: var(--colorBgButton);
+  border: 1px solid var(--colorTextLight);
+
+  &:hover {
+    background-color: var(--colorHover);
+    border: 1px solid var(--colorHover);
+  }
+}
+
+.apps-title {
+  font-family: var(--secondFamily);
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 0.82;
+  letter-spacing: 0em;
+  color: var(--colorTextDark);
+}
+
+.app-img {
+  max-width: 250px;
+  max-height: 500px;
+}
+
+.app-suptitle {
+  font-family: var(--fontFamily);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 0em;
+  color: var(--colorHover);
+}
+.app-title {
+  font-family: var(--fontFamily);
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.42;
+  letter-spacing: 0.01em;
+  color: var(--colorTextMain);
+}
+
+.app-subtitle {
+  font-family: var(--fontFamily);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.58;
+  letter-spacing: 0.01em;
+  color: var(--colorTextSecond);
+}
+
+.order {
+  background-image: url(../img/bg/footerbg.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
+.order-suptitle {
+  font-family: var(--fontFamily);
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.42;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: var(--colorTextLight);
+}
+
+.order-title {
+  font-family: var(--fontFamily);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.58;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: var(--colorTextLight);
+}
+
+.footer {
+  padding-top: 115px;
+  padding-bottom: 60px;
+}
+
+.footer-info {
+  font-family: var(--thirdFamily);
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  color: var(--colorTextFooter);
+}
